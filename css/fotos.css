@@ -1,0 +1,590 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Khand:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap');
+
+*, h1, h2, p, ul, li, a,
+*:after,
+*:before {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+body { background: #fff; color: #212121; font-family: 'Khand', sans-serif; font-size:22px; font-weight:400; cursor:default;  overflow-x: hidden; }
+html, body {height:100%; width: 100%;}
+
+ul {
+    list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.img-cover img {
+  width: 100%;
+  height: 100%;
+  -webkit-object-fit: cover;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+header{
+    background: #4D82CB; 
+}
+
+header .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container .logo{
+    padding-top: 20px;
+}
+
+header .container nav.menu ul  {
+    display: flex;
+}
+
+
+header .container nav.menu ul li{
+    padding: 0 20px;
+}
+
+header .container nav.menu ul li a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+header .container nav.menu ul li a:hover{
+    color: #484848;
+}
+
+header .container nav.menu ul li a.quero-ser-voluntario{
+    background: #ABE02B;
+    border-radius: 13px;
+    color: #484848;
+    width: 209px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    padding: 6px;
+    transition: filter 0.2s;
+
+}
+
+
+header .container nav.menu ul li a.quero-ser-voluntario:hover{
+    filter: brightness(90%);
+    color:#fff;
+}
+
+
+/*Section Fotos*/
+#fotos {
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    position: relative;
+}
+
+/*Fundo branco do container*/
+.fotos .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 55px 0;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*Textos Fotos*/
+.fotos .container h1 {
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 125px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 40px;
+
+}
+/*Linha de Fotos 1*/
+.fotos .container .albuns-linha1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.fotos .container .albuns-linha1 .album{
+    display: flex;
+    align-items: center;
+    flex:1;
+    margin-right: 30px;
+}
+
+.fotos .container .albuns-linha1 .album .foto-album img{
+    border: 10px solid #ABE02B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+
+}
+
+/*Texto Foto 01*/
+.albuns-linha1 .album a {
+    position: absolute;
+    width: 305px;
+    height: 83px;
+    left: 130px;
+    top: 485px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;   
+}
+
+.albuns-linha1 .album h4 {
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    left: 220px;
+    top: 560px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #FFFFFF;   
+}
+
+/*Texto Foto 02*/
+#foto02 {
+    position: absolute;
+    width: 305px;
+    height: 32px;
+    left: 500px;
+    top: 499px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;   
+}
+
+#foto002 {
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    left: 590px;
+    top: 530px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+/*Texto Foto 03*/
+#foto03 {
+    position: absolute;
+    width: 305px;
+    height: 83px;
+    left: 890px;
+    top: 480px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#foto003 {
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    left: 980px;
+    top: 550px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+/*Linha de Fotos 2*/
+.fotos .container .albuns-linha2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.fotos .container .albuns-linha2 .album{
+    display: flex;
+    align-items: center;
+    flex:1;
+    margin-right: 30px;
+}
+
+.fotos .container .albuns-linha2 .album .foto-album img{
+    border: 10px solid #ABE02B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+
+}
+
+/*Texto Foto 04*/
+.albuns-linha2 .album a {
+    position: absolute;
+    width: 305px;
+    height: 83px;
+    left: 130px;
+    top: 804px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.albuns-linha2 .album h4 {
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    left: 220px;
+    top: 887px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+/*Texto Foto 05*/
+#foto05 {
+    position: absolute;
+    width: 305px;
+    height: 32px;
+    left: 500px;
+    top: 805px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#foto005 {
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    left: 590px;
+    top: 830px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;
+        
+}
+/*Texto Foto 06*/
+#foto06 {
+    position: absolute;
+    width: 305px;
+    height: 83px;
+    left: 890px;
+    top: 805px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#foto006 {
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    left: 980px;
+    top: 880px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;   
+}
+
+/*Linha de Fotos 3*/
+.fotos .container .albuns-linha3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.fotos .container .albuns-linha3 .album{
+    display: flex;
+    align-items: center;
+    flex:1;
+    margin-right: 30px;
+}
+
+.fotos .container .albuns-linha3 .album .foto-album img{
+    border: 10px solid #ABE02B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+
+}
+
+/*Texto Foto 07*/
+.albuns-linha3 .album a {
+    position: absolute;
+    width: 305px;
+    height: 83px;
+    left: 130px;
+    top: 1119px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.albuns-linha3 .album h4 {
+    position: absolute;
+    width: 305px;
+    height: 32px;
+    left: 130px;
+    top: 1200px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+    
+    color: #FFFFFF;     
+}
+
+
+/*Texto Foto 08*/
+#foto08 {
+    position: absolute;
+    width: 305px;
+    height: 32px;
+    left: 500px;
+    top: 1119px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#foto008 {
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    left: 590px;
+    top: 1150px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #FFFFFF;    
+}
+/*Texto Foto 09*/
+#foto09 {
+    position: absolute;
+    width: 305px;
+    height: 83px;
+    left: 890px;
+    top: 1120px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#foto009 {
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    left: 980px;
+    top: 1190px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #FFFFFF;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 55px 0;
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container .logo-footer p{
+    font-size: 16px;
+}
+
+footer .container .logo-footer a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+footer .container  .mapa-site-sobre ul li a,
+footer .container  .mapa-site-como-ajudar ul li a
+{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+footer .container .redes-sociais a {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+
+
