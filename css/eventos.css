@@ -1,0 +1,478 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Khand:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap');
+
+
+*:after,
+*:before {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+
+body { background: #fff; color: #212121; font-family: 'Khand', sans-serif; font-size:22px; font-weight:400; cursor:default;  overflow-x: hidden; }
+html, body {height:100%; width: 100%; margin-left: 0px;}
+
+
+
+ul {
+    list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.img-cover img {
+  width: 100%;
+  height: 100%;
+  -webkit-object-fit: cover;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
+header{
+    background: #4D82CB; 
+}
+
+header .container{
+    max-width: 1200px;
+    height: 175px;
+    width: 100%;
+    margin-top: -8px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container .logo{
+    padding-top: 20px;
+}
+
+header .container nav.menu ul  {
+    display: flex;
+}
+
+
+header .container nav.menu ul li{
+    padding: 0 20px;
+}
+
+header .container nav.menu ul li a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+header .container nav.menu ul li a:hover{
+    color: #484848;
+}
+
+header .container nav.menu ul li a.quero-ser-voluntario{
+    background: #ABE02B;
+    border-radius: 13px;
+    color: #484848;
+    width: 209px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    padding: 6px;
+    transition: filter 0.2s;
+
+}
+
+
+header .container nav.menu ul li a.quero-ser-voluntario:hover{
+    filter: brightness(90%);
+    color:#fff;
+}
+
+
+#banner-eventos img {
+    position: absolute;
+    width: 2037px;
+    height: 1150px;
+    left: 0px;
+    top: 180px;    
+}
+
+#banner-eventos .container-eventos {
+    position: absolute;
+    width: 1150px;
+    height: 1200px;
+    left: 95px;
+    top: 175px;
+
+    background: #FFFFFF;
+}
+
+
+/*Eventos*/
+.container-eventos .desc-eventos h1 {
+    position: absolute;
+    width: 738px;
+    height: 104px;
+    left: 250px;
+    top: -40px;
+    
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 125px;
+    text-align: center;
+    
+    color: #000000;   
+}
+
+/*Acompanhe*/
+.container-eventos .desc-eventos p {
+    position: absolute;
+    width: 737px;
+    height: 76px;
+    left: 250px;
+    top: 110px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 55px;
+    text-align: center;
+    
+    color: #000000;    
+}
+
+/*Box 1*/
+.descricoes-eventos {
+    position: absolute;
+    width: 900px;
+    height: 249px;
+    left: 150px;
+    top: 250px;
+    
+    background: #4D82CB;
+    border: 10px solid #ABE02B;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;    
+}
+
+.descricoes-eventos .bloqueinho p {
+    position: absolute;
+    width: 492px;
+    height: 48px;
+    left: 600px;
+    top: 200px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 46px;
+    
+    color: #000000;
+}
+
+.descricoes-eventos .bloqueinho h2 {
+    position: absolute;
+    width: 162px;
+    height: 38px;
+    left: 601px;
+    top: 601px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 55px;
+    text-align: center;
+    
+    color: #000000;    
+}
+
+.descricoes-eventos .bloqueinho button {
+    position: absolute;
+    width: 209px;
+    height: 41px;
+    left: 1276px;
+    top: 598px;
+    
+    background: #ABE02B;
+    border-radius: 13px;   
+
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/*Box 2*/
+.descricoes-eventos2 {
+    position: absolute;
+    width: 900px;
+    height: 249px;
+    left: 150px;
+    top: 550px;
+    
+    background: #4D82CB;
+    border: 10px solid #ABE02B;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.descricoes-eventos2 .bloqueinho2 p {
+    position: absolute;
+    width: 497px;
+    height: 43px;
+    left: 478px;
+    top: 812px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 46px;
+    
+    color: #000000;
+}
+
+.descricoes-eventos2 .bloqueinho2 h2 {
+    position: absolute;
+    width: 162px;
+    height: 36px;
+    left: 601px;
+    top: 915px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 55px;
+    text-align: center;
+    
+    color: #000000;    
+}
+
+.descricoes-eventos2 .bloqueinho2 button {
+    position: absolute;
+    width: 209px;
+    height: 41px;
+    left: 1276px;
+    top: 912px;
+    
+    background: #ABE02B;
+    border-radius: 13px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+/*Box 3*/
+.descricoes-eventos3 {
+    position: absolute;
+    width: 900px;
+    height: 249px;
+    left: 150px;
+    top: 850px;
+    
+    background: #4D82CB;
+    border: 10px solid #ABE02B;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+ 
+.descricoes-eventos3 .bloqueinho3 p {
+    position: absolute;
+    width: 497px;
+    height: 35px;
+    left: 478px;
+    top: 1135px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 46px;
+    
+    color: #000000;
+}
+
+.descricoes-eventos3 .bloqueinho3 h2 {
+    position: absolute;
+    width: 160px;
+    height: 38px;
+    left: 601px;
+    top: 1250px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 55px;
+    text-align: center;
+    
+    color: #000000;
+       
+}
+
+.descricoes-eventos3 .bloqueinho3 button {
+    position: absolute;
+    width: 209px;
+    height: 41px;
+    left: 1276px;
+    top: 1247px;
+    
+    background: #ABE02B;
+    border-radius: 13px;    
+
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;    
+}
+
+
+
+
+footer .container {
+    position: absolute;
+    width: 1359px;
+    height: 300px;
+    left: 0px;
+    top: 1350px;
+
+    background-color: #FFFFFF;
+    
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container .logo-footer img {
+    position: absolute;
+    width: 116.06px;
+    height: 77.94px;
+    left: 144px;
+    top: 50px;
+}
+
+footer .container .logo-footer p{
+    position: absolute;
+    width: 224.12px;
+    height: 22.08px;
+    left: 130px;
+    top: 90px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+}
+
+footer .container .logo-footer a {
+    position: absolute;
+    width: 224.12px;
+    height: 19.48px;
+    left: 130px;
+    top: 150px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+
+}
+
+footer .container  .mapa-site-sobre ul li a {
+    left: 500px;
+    top: 1465.11px;   
+    
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+footer .container  .mapa-site-como-ajudar h5 {
+    width: 109.39px;
+    height: 20.78px;
+    left: 30px;
+    top: 150px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;    
+}
+
+footer .container  .mapa-site-como-ajudar ul li a {
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    top: 150px;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;    
+}
+
+footer .container .redes-sociais a {
+    display: inline-flex;
+    margin-right: 10px;
+}

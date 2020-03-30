@@ -1,0 +1,436 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Khand:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap');
+
+
+*:after,
+*:before {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+
+body { background: #fff; color: #212121; font-family: 'Khand', sans-serif; font-size:22px; font-weight:400; cursor:default;  overflow-x: hidden; }
+html, body {height:100%; width: 100%; margin-left: 0;}
+
+
+
+ul {
+    list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.img-cover img {
+  width: 100%;
+  height: 100%;
+  -webkit-object-fit: cover;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+
+header{
+    background: #4D82CB; 
+}
+
+header .container{
+    max-width: 1200px;
+    height: 175px;
+    width: 100%;
+    margin-top: -8px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container .logo{
+    padding-top: 20px;
+}
+
+header .container nav.menu ul  {
+    display: flex;
+}
+
+
+header .container nav.menu ul li{
+    padding: 0 20px;
+}
+
+header .container nav.menu ul li a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+header .container nav.menu ul li a:hover{
+    color: #484848;
+}
+
+header .container nav.menu ul li a.quero-ser-voluntario{
+    background: #ABE02B;
+    border-radius: 13px;
+    color: #484848;
+    width: 209px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    padding: 6px;
+    transition: filter 0.2s;
+
+}
+
+
+header .container nav.menu ul li a.quero-ser-voluntario:hover{
+    filter: brightness(90%);
+    color:#fff;
+}
+
+#banner-doacoes img {
+    position: absolute;
+    width: 1920px;
+    height: 500px;
+    left: 0px;
+    top: 174px;
+
+    background: linear-gradient(0deg, rgba(77, 130, 203, 0.5), rgba(77, 130, 203, 0.5));
+    mix-blend-mode: normal;
+}
+
+.banner-doacoes p {
+    position: absolute;
+    width: 772px;
+    height: 372px;
+    left: 67px;
+    top: 150px;
+
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 100px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.container-doacoes .cor-left {
+    position: absolute;
+    width: 85px;
+    height: 2000px;
+    left: 0px;
+    top: 704px;
+
+    background: #ABE02B;
+} 
+
+ .desc-doacoes h1 {
+    position: absolute;
+    width: 738px;
+    height: 104px;
+    left: 320px;
+    top: 650px;
+
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 125px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.container-doacoes .desc-doacoes p {
+    position: absolute;
+    width: 699px;
+    height: 397px;
+    left: 150px;
+    top: 820px;
+
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 55px;
+
+    color: #000000;
+}
+
+.container-doacoes .desc-doacoes h2 {
+    position: absolute;
+    width: 479px;
+    height: 97px;
+    left: 150px;
+    top: 1250px;
+
+    font-family: Khand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+
+    color: #000000;
+
+}
+
+/*Imagem Rosinha*/
+.container-doacoes .desc-doacoes img {
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    left: 220px;
+    top: 1500px;
+}
+
+/*Imagem de Cima*/
+.img-jacket-cima {
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    left: 900px;
+    top: 1000px;
+}
+
+/*Imagem de baixo*/
+.img-jacket-baixo {
+    position: absolute;
+    width: 239px;
+    height: 220px;
+    left: 1000px;
+    top: 900px;
+}
+
+.desc-doacao p {
+    position: absolute;
+    width: 705px;
+    height: 475px;
+    left: 640px;
+    top: 1400px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 55px;
+    
+    color: #000000;    
+}
+
+.cor-right {
+    position: absolute;
+    width: 85px;
+    height: 2000px;
+    left: 1279px;
+    top: 704px;
+    
+    background: #ABE02B;   
+}
+
+
+#conta-deposito {
+    position: absolute;
+    background: #4D82CB;
+    border-radius: 80px;
+    width: 1370px;
+    height: 400px;
+    left: 0px;
+    top: 1950px;
+}
+
+#conta-deposito .box-conta h1 {
+    position: absolute;
+    width: 400px;
+    height: 104px;
+    top: 10px;
+    left: 450px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+    
+    color: #000000;   
+}
+
+#conta-deposito .box-conta .dados-conta p {
+    position: absolute;
+    width: 463px;
+    height: 348px;
+    left: 100px;
+    top: 80px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 55px;
+    
+    color: #000000;   
+}
+
+#conta-deposito .box-conta .dados-conta h2 {
+    position: absolute;
+    width: 360px;
+    height: 62px;
+    left: 830px;
+    top: 170px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+    
+    color: #000000;   
+}
+
+#conta-deposito .box-conta .dados-conta button {
+    position: absolute;
+    width: 209px;
+    height: 41px;
+    left: 900px;
+    top: 250px;
+    border-radius: 10px;
+
+    background: #ABE02B;
+
+    font-family: Khand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    
+    color: #000000;   
+       
+}
+
+footer .container {
+    position: absolute;
+    width: 1359px;
+    height: 300px;
+    left: 0px;
+    top: 2500px;
+
+    background-color: #FFFFFF;
+    
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container .logo-footer img {
+    position: absolute;
+    width: 116.06px;
+    height: 77.94px;
+    left: 144px;
+    top: 50px;
+}
+
+footer .container .logo-footer p{
+    position: absolute;
+    width: 224.12px;
+    height: 22.08px;
+    left: 130px;
+    top: 90px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+}
+
+footer .container .logo-footer a {
+    position: absolute;
+    width: 224.12px;
+    height: 19.48px;
+    left: 130px;
+    top: 150px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+
+}
+
+footer .container  .mapa-site-sobre ul li a {
+    left: 500px;
+    top: 1465.11px;   
+    
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+footer .container  .mapa-site-como-ajudar h5 {
+    width: 109.39px;
+    height: 20.78px;
+    left: 20px;
+    top: 150px;
+    
+    font-family: Khand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;    
+}
+
+footer .container  .mapa-site-como-ajudar ul li a {
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    top: 150px;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;    
+}
+
+footer .container .redes-sociais a {
+    display: inline-flex;
+    margin-right: 10px;
+}

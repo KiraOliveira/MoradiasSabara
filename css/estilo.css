@@ -546,7 +546,7 @@ footer .container {
     margin: 0 auto;
     width: 100%;
     padding: 55px 0;
-
+  
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -575,4 +575,6 @@ footer .container .redes-sociais a {
     display: inline-flex;
     margin-right: 10px;
 }
+
+
 
