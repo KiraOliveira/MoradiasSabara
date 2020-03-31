@@ -107,12 +107,39 @@ header .container nav.menu ul li a.quero-ser-voluntario:hover{
     filter: brightness(90%);
     color:#fff;
 }
-button {
+
+
+#cadastro .container-cadastro{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 80px 0;
+    position: relative;
+}
+
+#cadastro .container-cadastro h1 {
+
+  font-family: Love Ya Like A Sister;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 125px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#cadastro .container-cadastro a {
     position: absolute;
     width: 209px;
     height: 41px;
-    left: 350px;
-    top: 400px;
+    left: 255px;
+    top: 450px;
     
     background: #4D82CB;
     border-radius: 13px;
@@ -122,8 +149,15 @@ button {
     font-weight: 600;
     font-size: 22px;
     line-height: 34px;
-
+    text-align: center;
     color: #FFFFFF;
+    padding-top: 5px;
+    transition: filter 0.2s;
+
+}
+
+#cadastro .container-cadastro a:hover{
+  filter: brightness(90%);
 }
 
 footer .container {
