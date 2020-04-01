@@ -380,6 +380,16 @@ header .container nav.menu ul li a.quero-ser-voluntario:hover{
     color: #000000;
     padding-top: 80px;
 }
+.depoimentos .container p {
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 20px;    
+
+}
 
 /* SECTION FOTOS */
 

@@ -21,3 +21,6 @@ Página Fotos, Voluntário e Nota Paraná finalizadas.
 
 31/03
 Inserção dos links das Redes Sociais.
+
+01/04
+Alterações dos Copies.
