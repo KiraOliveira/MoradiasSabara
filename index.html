@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -51,7 +55,7 @@
                     </div>
                     <div class="desc-missao">
                         <h2>Missão</h2>
-                        <p>Missão Introdução da arte e da cultura para a crianças e jovens e engajamento popular em questões sociais, socioambientais e de políticas públicas junto a comunidade</p>
+                        <p>Introdução da arte e da cultura para a crianças e jovens e engajamento popular em questões sociais, socioambientais e de políticas públicas junto a comunidade</p>
                     </div>
                 </div>
                 <div class="visao">
@@ -60,7 +64,7 @@
                     </div>
                     <div class="desc-visao">
                         <h2>Visão</h2>
-                        <p>Visão Desenvolver projetos culturais e artisticos, organização popular e comunitária para desenvolvimento da comunidade e fortalecer os ideais políticos e de garantia dos direitos da população.</p>
+                        <p>Desenvolver projetos culturais e artisticos, organização popular e comunitária para desenvolvimento da comunidade e fortalecer os ideais políticos e de garantia dos direitos da população.</p>
                     </div>
                 </div>
                  <div class="valores">
@@ -69,7 +73,7 @@
                     </div>
                     <div class="desc-valores">
                         <h2>Valores</h2>
-                        <p>Valores Pensamento coletivo, ideais sociambientais e de direitos iguais, desenvolvimento pessoal através da arte e cultura.</p>
+                        <p>Pensamento coletivo, ideais sociambientais e de direitos iguais, desenvolvimento pessoal através da arte e cultura.</p>
                     </div>
                 </div>
             </div>
@@ -190,13 +194,58 @@
     <section class="depoimentos">
         <div class="container">
             <h1>Depoimentos</h1>
-            <p>“Eu conheci a associação aos 10 anos em uma reunião de bairro e me dei muito bem com o lugar e com as pessoas. <br>
-                Participei de várias atividades e cursos. Fiz teatro e curso de desenho. Aprendi muito sobre o mundo lá. <br> 
-                É um lugar muito incrível que sempre se preocupou com o bairro e com o meio ambiente. Eu me sinto muito grata <br>
-                por ter a oportunidade de ter convivido lá com essas pessoas incríveis e que me ensinaram muito sobre a arte e a vida. <br>
-                Um lugar que vai estar sempre no meu coração e na minha memória.”<br>
-                               <span>Tiffany Saldanha</span>
-            </p>
+            <div class="swiper-container swiper-depoimentos">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide box-depoimentos">
+                    <p>“Eu conheci a associação aos 10 anos em uma reunião de bairro e me dei muito bem com o lugar e com as pessoas. 
+                        Participei de várias atividades e cursos. Fiz teatro e curso de desenho. Aprendi muito sobre o mundo lá. 
+                        É um lugar muito incrível que sempre se preocupou com o bairro e com o meio ambiente. Eu me sinto muito grata 
+                        por ter a oportunidade de ter convivido lá com essas pessoas incríveis e que me ensinaram muito sobre a arte e a vida. 
+                        Um lugar que vai estar sempre no meu coração e na minha memória.”
+                    </p>
+                    <p class="assinatura">
+                         <span>Tiffany Saldanha</span><br/>
+                         Ex- Aluna da Associação
+                    </p>
+                  </div>
+                  <div class="swiper-slide box-depoimentos">
+                    <p>“O que me chamou atenção para trabalhar como voluntária foi à vontade de fazer a diferença dentro da sociedade e quando percebi que existiam mais pessoas com o mesmo ideal me senti pertencente ao grupo. Percebo que a AMMS1 é uma escola de ação, acolhimento e aprendizado aos jovens que tem sede de criar algo relacionado a arte, música,teatro, comunicação ou até mesmo da psicologia, porém não encontram espaços para essa criação.”
+                    </p>
+                    <p class="assinatura">
+                         <span>Kelly Marques</span><br/>
+                         Voluntária
+                    </p>
+                  </div>
+                  <div class="swiper-slide box-depoimentos">
+                    <p>“Sou moradora do Sabará desde meu nascimento. Fui, desde os meus cinco anos de idade, aluna do antigo projeto PIA situado na atual Associação de Moradores Sabará I. Mesmo com todos os perrengues que passamos, eu me sinto no dever de ajudar aquele lugar a funcionar, por que assim como deram para mim a oportunidade de sonhar com outras realidades fora da periferia, quero oportunizar também as crianças que residem no Sabará.”
+                    </p>
+                    <p class="assinatura">
+                         <span>Ana Carolina</span><br/>
+                         Ex- Aluna da Associação e Voluntária
+                    </p>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <!--<div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>-->
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+              <script type="text/javascript">
+                  $(document).ready(function () {
+                      var swiper = new Swiper('.swiper-container', {
+                          slidesPerView: 1,
+                          loop:true,
+                          pagination: {
+                            el: '.swiper-pagination'
+                          },
+                          mousewheel: true,
+                          keyboard: true,
+                        })
+                   });
+              </script>
+
         </div>
     </section>
 
@@ -249,7 +298,7 @@
     <section class="contato">
         <div class="container">
             <h1 id="contato">CONTATOS</h1>
-            <p>Envie-nos uma mensagem com as suas dúvidas, sugestões ou críticas. Estamos de braços abertos para atendê-los sempre da melhor forma. </p>
+            <p>Envie-nos uma mensagem com as suas dúvidas, sugestões ou críticas. <br/>Estamos de braços abertos para atendê-los sempre da melhor forma. </p>
 
             <div class="box-form">
                 <form action="#">
@@ -300,7 +349,9 @@
             </div>
         </div>
     </footer>
-
+    
+    
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
 </body>
 
 </html>
