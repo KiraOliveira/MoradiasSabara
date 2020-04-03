@@ -28,3 +28,6 @@ Alterações dos Copies.
 02/04
 Inserção das Modal's de agradecimento, link de fotos com o drive e alteração
 das pastas do index das fotos.
+
+03/04 03:10h
+Ajustes do layout.
