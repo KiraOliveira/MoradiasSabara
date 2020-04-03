@@ -444,7 +444,6 @@ header .container nav.menu ul li a.quero-ser-voluntario:hover{
     margin: 0 auto;
     width: 100%;
     padding: 55px 0;
-    top: 15px;
 
     display: flex;
     justify-content: center;
@@ -508,24 +507,6 @@ header .container nav.menu ul li a.quero-ser-voluntario:hover{
     font-size: 20px;
     color: #FFFFFF;
 }
-
-.fotos .container a {
-        background: #ABE02B;
-        border-radius: 20px;
-        width: 173px;
-        height: 50px;
-        margin:0 auto;
-        margin-top: 25px;
-    
-        font-family: Khand;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 37px;
-        text-align: center;
-        color: #000000;
-    }
-
 
 .contato{
     background: #4D82CB;
@@ -614,9 +595,6 @@ header .container nav.menu ul li a.quero-ser-voluntario:hover{
     text-align: center;
     color: #000000;
 }
-
-
-
 
 footer .container {
     max-width: 1200px;

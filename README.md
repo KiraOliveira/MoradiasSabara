@@ -24,3 +24,7 @@ Inserção dos links das Redes Sociais.
 
 01/04
 Alterações dos Copies.
+
+02/04
+Inserção das Modal's de agradecimento, link de fotos com o drive e alteração
+das pastas do index das fotos.
