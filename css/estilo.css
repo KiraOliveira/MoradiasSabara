@@ -658,5 +658,14 @@ footer .container .redes-sociais a {
 }
 
 
+@media (max-width: 768px){
+    html {
+        font-size: 50%;
+    }
+}
 
-
+@media (max-width: 630){
+    html {
+        font-size: 25%;
+    }
+}
