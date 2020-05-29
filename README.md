@@ -31,3 +31,7 @@ das pastas do index das fotos.
 
 03/04 03:10h
 Ajustes do layout.
+
+28/05
+
+Realizado ajustes nos textos.
